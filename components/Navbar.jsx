@@ -104,7 +104,7 @@ const Navbar = () => {
                                 X
                             </button>
                         </div>
-                        <div className="flex flex-col items-center p-8">
+                        <div className="flex flex-col items-left p-8">
                             <Link href="/about">
                                 <p className="text-xl mb-4">THE BATBUILDER</p>
                             </Link>
