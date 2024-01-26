@@ -9,7 +9,7 @@ export default function Home() {
 
       {/* First Row */}
 
-      <div className="flex flex-col mt-16 md:flex-row mb-8">
+      <div className="flex flex-col mt-40 md:flex-row mb-8">
         <div className="w-full md:w-1/2 lg:w-1/2 md:mr-4 relative group overflow-hidden" >
 
 
@@ -107,10 +107,6 @@ export default function Home() {
             className="transition-transform duration-300 transform scale-100 group-hover:scale-110 rounded-md"
           />
 
-          {/* <div className="absolute  inset-0 flex items-center group-hover:hidden justify-center bg-opacity-75 ">
-            <h2 className="text-white text-2xl">Shop Senior</h2>
-          </div> */}
-
           <div className="absolute inset-0 flex items-center justify-center bg-opacity-75 opacity-0 group-hover:opacity-100">
             <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
               Shop Now
@@ -122,7 +118,7 @@ export default function Home() {
 
 
       {/* Map container */}
-      <div className="text-center mx-auto md:w-1/2 w-full  m-10 ">
+      <div className="text-center mx-auto md:w-4/5 w-full  m-10 ">
         <h2 className="font-bold text-4xl mt-2 m-10">Celebrating 100 Years of Heritage </h2>
         <p className="text-xl">Celebrating 100 Years of Heritage From humble origins in the early 1900’s in East Sussex, England, through to worldwide accolades. The Newbery heritage combines tradition, legends, innovation and master craftsmen. The Newbery story begins with Len Newbery, a highly skilled bat-maker and master craftsman, naturally he passed down his highly skilled legacy to his only son, John Newbery, who carried on the skill with great success. Together, their Newbery philosophy, the English heritage, their passion and legacy is still used and is emphatically understood today.</p> </div>
       <div className="w-full  relative group overflow-hidden">
@@ -134,15 +130,7 @@ export default function Home() {
           height={300}
           className="transition-transform duration-300 transform scale-100 group-hover:scale-110 rounded-md"
         />
-        <div className="absolute  inset-0 flex items-center group-hover:hidden justify-center bg-opacity-75 ">
-          <h2 className="text-white text-4xl">Shop Senior</h2>
-        </div>
-
-        <div className="absolute inset-0 flex items-center justify-center bg-opacity-75 opacity-0 group-hover:opacity-100">
-          <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-            Shop Now
-          </button>
-        </div>
+ 
       </div>
     </main>
   );

@@ -98,7 +98,28 @@ const Navbar = () => {
                 </button>
 
                 <div className={`absolute h-full inset-0 bg-white bg-opacity-75 z-50 ${isMenuOpen ? 'block' : 'hidden'}`} onClick={toggleMenu}>
-                    <div className={`fixed inset-y-0 left-0 bg-white w-64 transform ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform ease-in-out duration-500`}>
+                    {/* <div className={`fixed inset-y-0 left-0 bg-white w-64 transform ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform ease-in-out duration-500`}>
+                        <div className="p-4">
+                            <button type="button" className="text-black" onClick={toggleMenu}>
+                                X
+                            </button>
+                        </div>
+                        <div className="flex flex-col items-left p-8">
+                            <Link href="/about">
+                                <p className="text-xl mb-4">THE BATBUILDER</p>
+                            </Link>
+                            <Link href="/about">
+                                <p className="text-xl mb-4">SHOP NOW</p>
+                            </Link>
+                            <Link href="/about">
+                                <p className="text-xl mb-4">JANUARY SALE</p>
+                            </Link>
+                            <Link href="/about">
+                                <p className="text-xl mb-4">CRICKET NET HIRE</p>
+                            </Link>
+                        </div>
+                    </div> */}
+                    <div className={`fixed inset-y-0 left-0 bg-white w-64 transform ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform ease-in-out duration-500 ease-in-out`}>
                         <div className="p-4">
                             <button type="button" className="text-black" onClick={toggleMenu}>
                                 X
@@ -119,6 +140,7 @@ const Navbar = () => {
                             </Link>
                         </div>
                     </div>
+
                 </div>
 
                 <div className="logo">
